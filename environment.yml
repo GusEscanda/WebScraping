@@ -1,0 +1,13 @@
+# Para crear el environment e instalar los paquetes necesarios, una vez descargados los archivos, moverse al directorio y ejectuar:
+
+# conda env create
+
+
+name: WebScraping
+dependencies:
+  - python  # con python=3.6, por ejemplo, especifico la version. Si no, usa la mas nueva disponible
+  - numpy
+  - requests
+  - bs4
+  - lxml
+
